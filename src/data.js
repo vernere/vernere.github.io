@@ -1,5 +1,5 @@
-import tour1 from "./assets/images/tour-1.jpeg";
-import tour2 from "./assets/images/tour-2.jpeg";
+import tour1 from "./assets/images/tour-1.png";
+import tour2 from "./assets/images/tour-2.png";
 import tour3 from "./assets/images/tour-3.jpeg";
 import tour4 from "./assets/images/tour-4.jpeg";
 
@@ -41,24 +41,26 @@ export const tours = [
   {
     id: 1,
     image: tour1,
-    date: "august 26th, 2025",
-    title: "Tibet Adventure",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "china",
-    duration: 6,
+    date: "december 20th, 2024",
+    title: "Cloud 5",
+    info: `Game made in my 1st year of studies. In my off semester of video game development, I made a slot machine game, using unity 2d core and c#.`,
+    location: "Games",
+    duration: 2,
     cost: 2100,
+    faId: "fa fa-gamepad",
   },
   {
     id: 2,
     image: tour2,
-    date: "october 1th, 2025",
-    title: "best of java",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "indonesia",
-    duration: 11,
+    date: "april 29th, 2025",
+    title: "MetroPost",
+    info: ` Made in my second yeaer of studies as a software engineering major. A decentralizeed social media platform made for the students of Metropolia UAS`,
+    location: "Web App",
+    duration: 2,
     cost: 1400,
+    faId: "fa fa-cloud",
   },
-  {
+ /* {
     id: 3,
     image: tour3,
     date: "september 15th, 2025",
@@ -67,6 +69,7 @@ export const tours = [
     location: "hong kong",
     duration: 8,
     cost: 5000,
+    faId: "fa fa-gamepad",
   },
   {
     id: 4,
@@ -77,5 +80,6 @@ export const tours = [
     location: "kenya",
     duration: 20,
     cost: 3300,
-  },
+    faId: "fa fa-gamepad",
+  },*/
 ];

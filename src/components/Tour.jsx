@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Tour({ image, title, date, info, cost, duration, location }) {
+function Tour({ image, title, date, info, cost, duration, location, faId }) {
   return (
     <article className="tour-card">
       <div className="tour-img-container">
@@ -15,11 +15,10 @@ function Tour({ image, title, date, info, cost, duration, location }) {
         <div className="tour-footer">
           <p>
             <span>
-              <i className="fas fa-map" />
+              <i className={faId} />
             </span>{location}
           </p>
-          <p>from €{cost} </p>
-          <p>{duration} days</p>
+          <p>{duration} months</p>
         </div>
       </div>
     </article>
