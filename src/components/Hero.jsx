@@ -2,7 +2,7 @@ function Hero() {
   return (
     <section className="hero" id="home">
       <div className="hero-banner">
-        <h1>Hi, my name is Verner Etola</h1>
+        <h1>Creative design</h1>
         <p>
           I design and develop applications and video games.
         </p>
