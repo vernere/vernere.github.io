@@ -1,4 +1,4 @@
-import about from '../assets/images/about.jpeg'
+import about from '../assets/images/about.jpg'
 
 const About = () => {
   return (
@@ -17,16 +17,15 @@ const About = () => {
           />
         </div>
         <article className="about-info">
-          <h3>explore the difference</h3>
+          <h3>profile</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+          Dynamic and highly motivated individual with a strong background in IT. 
+          Five years of experience in a very demanding and challenging work environment. 
+          Adept in leading groups, thriving in stressful and demanding situations.
           </p>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur
-            quisquam harum nam cumque temporibus explicabo dolorum sapiente odio
-            unde dolor?
+          In my free time, I enjoy software development, video game development, and physical training, 
+          which help me stay focused, creative, and balanced. I am always eager to explore new interests and develop new skills outside of work.
           </p>
           <a href="#" className="btn">
             read more

@@ -1,0 +1,22 @@
+"""class Verner_Etola{
+
+constructor() {
+this.name = 'Verner Etola'
+this.email = 'verner.etola@gmail.com'
+}workExperience() {
+return [
+{ '2022-now' : 'Sub surface warfare petty officer at Finnish Defense Forces - Coastal fleet' }
+{ '2020-2022' : 'Maritime surveillance petty officer at Finnish Defense Forces - Coastal Brigade' }
+{ '2017-2018' : 'School attendance assistant & substitute teacher at Winellska skolan - Kirkkonummi municipality' }
+]
+}
+education() {
+return [
+{ '2024-now': 'Metropolia AMK - Information and communication technologies engineer - Software Engineer' },
+{ '2015-2018': 'Kyrkslätts gymnasium - Graduate' }
+]
+}
+skills() {
+return [ 'HTML/CSS/JS','React.js', 'Node.js', 'Tailwind', 'Vite', 'npm/yarn/pnpm', 'GIT', 'MySQL/MongoDB' ,
+        'Photoshop', 'UX/UI', 'C#/C++','Python', 'Unity']
+"""
