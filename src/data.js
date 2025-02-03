@@ -1,6 +1,6 @@
 import tour1 from "./assets/images/tour-1.png";
 import tour2 from "./assets/images/tour-2.png";
-import tour3 from "./assets/images/tour-3.jpeg";
+import tour3 from "./assets/images/tour-3.png";
 import tour4 from "./assets/images/tour-4.jpeg";
 
 export const pageLinks = [
@@ -54,23 +54,23 @@ export const tours = [
     image: tour2,
     date: "april 29th, 2025",
     title: "MetroPost",
-    info: ` Made in my second yeaer of studies as a software engineering major. A decentralizeed social media platform made for the students of Metropolia UAS`,
+    info: ` Made in my second year of studies as a software engineering major. A decentralizeed social media platform made for the students of Metropolia UAS`,
     location: "Web App",
     duration: 2,
     cost: 1400,
     faId: "fa fa-cloud",
   },
-  /* {
+   {
      id: 3,
      image: tour3,
-     date: "september 15th, 2025",
-     title: "explore hong kong",
-     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+     date: "June 20th, 2024",
+     title: "Package Delivery Simulator 2024",
+     info: ` Made in my 1st semester of studies, Package delivery simulator 2024 was made with a Python engine and js, html frontend.`,
      location: "hong kong",
      duration: 8,
      cost: 5000,
      faId: "fa fa-gamepad",
-   },
+   },/*
    {
      id: 4,
      image: tour4,
