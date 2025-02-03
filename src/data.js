@@ -19,21 +19,21 @@ export const socialLinks = [
 export const services = [
   {
     id: 1,
-    icon: "fas fa-wallet fa-fw",
-    title: "saving money",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fa fa-address-card",
+    title: "Email",
+    text: "Verner.etola@gmail.com",
   },
   {
     id: 2,
-    icon: "fas fa-tree fa-fw",
-    title: "endless hiking",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fa fa-code",
+    title: "Github",
+    text: "https://github.com/vernere",
   },
   {
     id: 3,
-    icon: "fas fa-socks fa-fw",
-    title: "amazing comfort",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit Asperiores, officia.",
+    icon: "fa fa-gamepad",
+    title: "Itch.io",
+    text: "https://vernere.itch.io/",
   },
 ];
 

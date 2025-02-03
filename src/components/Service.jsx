@@ -6,7 +6,9 @@ const Service = ({ icon, title, text }) => {
       </span>
       <div className='service-info'>
         <h4 className='service-title'>{title}</h4>
-        <p className='service-text'>{text}</p>
+        <a href={text}>
+          <p className='service-text'>{text}</p>
+        </a>
       </div>
     </article>
   )
