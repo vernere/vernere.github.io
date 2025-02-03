@@ -133,12 +133,15 @@ p {
   transition: var(--transition);
   font-size: 0.875rem;
   border: 2px solid transparent;
-  cursor: pointer;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  cursor: none;
+
 }
 .btn:hover {
   color: var(--clr-primary-1);
   background: var(--clr-primary-8);
+  cursor: none;
+
 }
 /* section */
 .section {
@@ -206,6 +209,8 @@ Hero
   background: transparent;
   color: var(--clr-white);
   border-color: var(--clr-white);
+  cursor: none;
+
 }
 @media screen and (min-width: 768px) {
   .hero {
@@ -377,18 +382,24 @@ Featured Tours
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
+  cursor: none;
+
 }
 .tour-footer p {
   line-height: 0;
   margin-bottom: 0;
   text-transform: capitalize;
   color: var(--clr-primary-5);
+  cursor: none;
+
 }
 .tour-footer p span {
   margin-right: 0.25rem;
 }
 .tour-btn {
   text-align: center;
+  cursor: none;
+
 }
 @media screen and (min-width: 768px) {
   .featured-center {
@@ -413,6 +424,8 @@ Footer
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
+  cursor: none;
+
 }
 .footer-links,
 .footer-icons {
@@ -428,6 +441,8 @@ Footer
   margin-right: 1rem;
   letter-spacing: var(--spacing);
   transition: var(--transition);
+  cursor: none;
+
 }
 .footer-link:hover {
   color: var(--clr-primary-5);
@@ -467,6 +482,8 @@ Navbar
   height: 4rem;
   display: flex;
   align-items: center;
+  cursor: none;
+
 }
 .nav-icons {
   display: none;
@@ -487,11 +504,13 @@ Navbar
   outline: none;
   font-size: 1.5rem;
   color: var(--clr-primary-5);
-  cursor: pointer;
+  cursor: none;
   transition: var(--transition);
 }
 .nav-toggle:hover {
   transform: scale(1.2);
+  cursor: none;
+
 }
 .nav-link {
   display: block;
@@ -500,7 +519,7 @@ Navbar
   letter-spacing: var(--spacing);
   transition: var(--transition);
   color: var(--clr-grey-1);
-  cursor: pointer;
+  cursor: none;
   font-size: 1rem;
 }
 .nav-link:hover {
