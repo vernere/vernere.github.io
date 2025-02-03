@@ -60,3 +60,8 @@
         padding: 2px 4px;
     }
 }
+
+.code-line.hovered {
+    background-color: var(--clr-primary-9); /* Red for line numbers */
+    /* Change this to your desired hover color */
+}
