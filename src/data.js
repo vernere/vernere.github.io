@@ -66,8 +66,8 @@ export const tours = [
      date: "June 20th, 2024",
      title: "Package Delivery Simulator 2024",
      info: ` Made in my 1st semester of studies, Package delivery simulator 2024 was made with a Python engine and js, html frontend.`,
-     location: "hong kong",
-     duration: 8,
+     location: "Games",
+     duration: 3,
      cost: 5000,
      faId: "fa fa-gamepad",
    },/*
