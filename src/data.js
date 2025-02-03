@@ -60,26 +60,59 @@ export const tours = [
     cost: 1400,
     faId: "fa fa-cloud",
   },
- /* {
-    id: 3,
-    image: tour3,
-    date: "september 15th, 2025",
-    title: "explore hong kong",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "hong kong",
-    duration: 8,
-    cost: 5000,
-    faId: "fa fa-gamepad",
-  },
+  /* {
+     id: 3,
+     image: tour3,
+     date: "september 15th, 2025",
+     title: "explore hong kong",
+     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+     location: "hong kong",
+     duration: 8,
+     cost: 5000,
+     faId: "fa fa-gamepad",
+   },
+   {
+     id: 4,
+     image: tour4,
+     date: "december 5th, 2025",
+     title: "kenya highlights",
+     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
+     location: "kenya",
+     duration: 20,
+     cost: 3300,
+     faId: "fa fa-gamepad",
+   },*/
+];
+export const code = [
   {
-    id: 4,
-    image: tour4,
-    date: "december 5th, 2025",
-    title: "kenya highlights",
-    info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
-    location: "kenya",
-    duration: 20,
-    cost: 3300,
-    faId: "fa fa-gamepad",
-  },*/
+    text: `class Verner_Etola {
+  constructor() {
+    this.name = 'Verner Etola';
+    this.email = 'verner.etola@gmail.com';
+  }
+
+  workExperience() {
+    return [
+      { '2022-now': 'Sub surface warfare petty officer at Finnish Defense Forces - Coastal fleet' },
+      { '2020-2022': 'Maritime surveillance petty officer at Finnish Defense Forces - Coastal Brigade' },
+      { '2017-2018': 'School attendance assistant & substitute teacher at Winellska skolan - Kirkkonummi municipality' }
+    ];
+  }
+
+  education() {
+    return [
+      { '2024-now': 'Metropolia AMK - Information and communication technologies engineer - Software Engineer' },
+      { '2015-2018': 'Kyrkslätts gymnasium - Graduate' }
+    ];
+  }
+
+  skills() {
+    return [
+      'HTML/CSS/JS', 'React.js', 'Node.js', 'Tailwind', 'Vite', 'npm/yarn/pnpm', 'GIT', 'MySQL/MongoDB',
+      'Photoshop', 'UX/UI', 'C#/C++', 'Python', 'Unity'
+    ];
+  }
+}
+    `,
+  },
 ];

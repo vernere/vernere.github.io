@@ -1,4 +1,4 @@
-"""class Verner_Etola{
+class Verner_Etola{
 
 constructor() {
 this.name = 'Verner Etola'
@@ -19,4 +19,3 @@ return [
 skills() {
 return [ 'HTML/CSS/JS','React.js', 'Node.js', 'Tailwind', 'Vite', 'npm/yarn/pnpm', 'GIT', 'MySQL/MongoDB' ,
         'Photoshop', 'UX/UI', 'C#/C++','Python', 'Unity']
-"""

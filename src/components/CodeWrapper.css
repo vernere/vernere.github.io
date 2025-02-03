@@ -1,0 +1,62 @@
+/* Base styling for CodeWrapper */
+.code-wrapper {
+    background-color: var(--clr-white); /* Light background */
+    border: 1px solid #ddd;
+    border-radius: var(--radius);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    font-family: 'monospace';
+    padding: 1rem;
+    max-width: 100%;
+    box-shadow: var(--light-shadow);
+    margin: 0; /* Remove margins to make it look embedded */
+}
+
+.code-line {
+    font-size: 17px;
+    line-height: 1.6;
+    white-space: pre-wrap; /* Handle long lines */
+    padding: 4px 8px;
+    transition: background-color 0.2s ease;
+    display: flex; /* Use flexbox */
+    justify-content: flex-start; /* Align items to the start */
+    padding-left: 15%; /* Push content to the right */
+    overflow-x: hidden; /* Ensure no child elements cause overflow */
+    font-family: 'arial';
+}
+
+.code-line:first-child {
+    margin-top: 0;  /* Reset margin for first line */
+}
+
+.code-line:hover {
+    background-color: var(--clr-primary-9); /* Light red on hover */
+}
+
+.line-number {
+    color: var(--clr-primary-5); /* Red for line numbers */
+    padding: 4px 8px;
+    text-align: right;
+    user-select: none;
+    display: inline-block;
+    width: 3rem; /* Adjust width for better alignment */
+}
+
+@media screen and (max-width: 768px) {
+    .code-wrapper {
+        padding: 0.5rem;
+        margin-left: 0; /* Reset margin for smaller screens */
+    }
+
+    .code-line {
+        font-size: 12px;
+        padding: 2px 4px;
+        width: 100%; /* Reset width for smaller screens */
+        margin-left: 0; /* Reset margin for smaller screens */
+        padding-left: 15%; /* Push content to the right */
+    }
+
+    .line-number {
+        width: 2rem; /* Adjust width for smaller screens */
+        padding: 2px 4px;
+    }
+}
