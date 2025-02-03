@@ -1,0 +1,67 @@
+.custom-cursor-dot,
+.custom-cursor-ring {
+    position: fixed;
+    pointer-events: none;
+    z-index: 9999;
+    transform: translate(-50%, -50%);
+}
+
+.custom-cursor-dot {
+    width: 4px;
+    /* Smaller size */
+    height: 4px;
+    /* Smaller size */
+    background-color: var(--clr-primary-5);
+    border-radius: 50%;
+    transition: transform 0.05s ease;
+    /* Snappier transition */
+}
+
+.custom-cursor-ring {
+    width: 16px;
+    /* Smaller size */
+    height: 16px;
+    /* Smaller size */
+    border: 2px solid var(--clr-primary-5);
+    border-radius: 50%;
+    transition: transform 0.1s ease;
+    /* Snappier transition */
+}
+
+.custom-cursor-dot {
+    animation: dotAnimation 0.05s ease-out;
+    /* Snappier animation */
+}
+
+.custom-cursor-ring {
+    animation: ringAnimation 0.1s ease-out;
+    /* Snappier animation */
+}
+
+@keyframes dotAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes ringAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
