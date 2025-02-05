@@ -54,7 +54,7 @@ export const tours = [
     image: tour2,
     date: "april 29th, 2025",
     title: "MetroPost",
-    info: ` Made in my second year of studies as a software engineering major. A decentralizeed social media platform made for the students of Metropolia UAS`,
+    info: ` Made in my second year of studies as a software engineering major. A social media platform made for the students of Metropolia UAS`,
     location: "Web App",
     duration: 2,
     cost: 1400,
