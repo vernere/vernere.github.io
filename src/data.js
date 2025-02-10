@@ -64,7 +64,7 @@ export const tours = [
      id: 3,
      image: tour3,
      date: "June 20th, 2024",
-     title: "Package Delivery Simulator 2024",
+     title: "PDS 2024",
      info: ` Made in my 1st semester of studies, Package delivery simulator 2024 was made with a Python engine and js, html frontend.`,
      location: "Games",
      duration: 3,
