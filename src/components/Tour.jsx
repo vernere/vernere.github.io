@@ -2,7 +2,7 @@ import React from 'react';
 
 function Tour({ image, title, date, info, cost, duration, location, faId }) {
   return (
-    <article className="tour-card">
+    <article className="tour-card hover-target">
       <div className="tour-img-container">
         <img src={image} alt={title} className="tour-img" />
         <p className="tour-date">{date}</p>

@@ -44,6 +44,11 @@ Global Styles
 ===============
 */
 
+@media screen and (max-width: 768px) {
+  body, .btn, .hero, .service-text, .service-title, .tour-footer, .tour-footer p, .tour-btn, .footer, .footer-link, .nav-link, .nav-toggle {
+    cursor: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -496,7 +501,7 @@ Navbar
 }
 .nav-center {
   width: 21vw;
-  max-width: 520px;
+  max-width: 400px;
   margin: 0 auto;
 }
 .nav-header {
@@ -544,6 +549,7 @@ Navbar
 }
 /* nav at bigger screen size */
 @media screen and (min-width: 992px) {
+  
   /* hide nav toggle button */
   .nav-toggle {
     display: none;
