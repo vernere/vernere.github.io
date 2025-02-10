@@ -5,9 +5,8 @@ const Service = ({ icon, title, text }) => {
         <i className={icon}></i>
       </span>
       <div className='service-info'>
-        <h4 className='service-title'>{title}</h4>
         <a href={text}>
-          <p className='service-text'>{text}</p>
+        <h4 className='service-title'>{title}</h4>
         </a>
       </div>
     </article>

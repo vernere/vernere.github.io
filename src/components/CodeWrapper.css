@@ -16,7 +16,6 @@
     line-height: 1.6;
     white-space: pre-wrap; /* Handle long lines */
     padding: 4px 8px;
-    transition: background-color 0.2s ease;
     display: flex; /* Use flexbox */
     justify-content: flex-start; /* Align items to the start */
     padding-left: 15%; /* Push content to the right */
@@ -62,6 +61,7 @@
 }
 
 .code-line.hovered {
-    background-color: var(--clr-primary-9); /* Red for line numbers */
+    background-color: #231d28; /* Red for line numbers */
     /* Change this to your desired hover color */
 }
+

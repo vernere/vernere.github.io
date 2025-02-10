@@ -1,4 +1,4 @@
-import logo from '../assets/images/logov1.png'
+import logo from '../assets/images/logov3.png'
 import PageLinks from "./PageLinks";
 
 

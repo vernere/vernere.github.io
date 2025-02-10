@@ -6,30 +6,30 @@ Variables
 
 :root {
   /* dark shades of primary color*/
-  --clr-primary-1: hsl(341, 91%, 17%);
-  --clr-primary-2: hsl(351, 84%, 25%);
-  --clr-primary-3: hsl(350, 81%, 29%);
-  --clr-primary-4: hsl(352, 77%, 34%);
+  --clr-primary-1: hsl(247, 91%, 17%);
+  --clr-primary-2: hsl(249, 84%, 25%);
+  --clr-primary-3: hsl(249, 81%, 29%);
+  --clr-primary-4: hsl(250, 77%, 34%);
   /* primary/main color */
-  --clr-primary-5: hsl(0, 62%, 45%);
+  --clr-primary-5: hsl(253, 62%, 45%);
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(352, 57%, 50%);
-  --clr-primary-7: hsl(358, 65%, 59%);
-  --clr-primary-8: hsl(0, 80%, 74%);
-  --clr-primary-9: hsl(353, 94%, 87%);
-  --clr-primary-10: hsl(358, 100%, 94%);
+  --clr-primary-6: hsl(249, 57%, 50%);
+  --clr-primary-7: hsl(248, 65%, 59%);
+  --clr-primary-8: hsl(236, 80%, 74%);
+  --clr-primary-9: hsla(351, 94%, 87%, 0.348);
+  --clr-primary-10: hsl(242, 100%, 94%);
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(350, 61%, 16%);
-  --clr-grey-2: hsl(353, 39%, 23%);
-  --clr-grey-3: hsl(355, 35%, 30%);
-  --clr-grey-4: hsl(0, 28%, 39%);
+  --clr-grey-1: hsl(240, 61%, 16%);
+  --clr-grey-2: hsl(236, 39%, 23%);
+  --clr-grey-3: hsl(251, 35%, 30%);
+  --clr-grey-4: hsl(245, 28%, 39%);
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(0, 22%, 49%);
-  --clr-grey-6: hsl(357, 23%, 60%);
-  --clr-grey-7: hsl(359, 27%, 70%);
-  --clr-grey-8: hsl(0, 31%, 80%);
-  --clr-grey-9: hsl(0, 32%, 89%);
-  --clr-grey-10: hsl(0, 33%, 96%);
+  --clr-grey-5: hsl(238, 22%, 49%);
+  --clr-grey-6: hsl(247, 23%, 60%);
+  --clr-grey-7: hsl(241, 27%, 70%);
+  --clr-grey-8: hsl(233, 31%, 80%);
+  --clr-grey-9: hsl(250, 32%, 89%);
+  --clr-grey-10: hsl(249, 33%, 96%);
   --clr-white: #fff;
   --ff-primary: 'Lato', sans-serif;
   --transition: all 0.3s linear;
@@ -55,7 +55,7 @@ html {
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-white);
+  background: #1a1526;
   color: var(--clr-grey-1);
   line-height: 1.5;
   font-size: 0.875rem;
@@ -156,7 +156,7 @@ p {
   text-transform: uppercase;
 }
 .section-title span {
-  color: var(--clr-primary-5);
+  color: white;
 }
 .section-center {
   width: 90vw;
@@ -214,8 +214,8 @@ Hero
 }
 @media screen and (min-width: 768px) {
   .hero {
-    background: linear-gradient(rgba(172, 23, 63, 0.7), rgba(0, 0, 0, 0.7)),
-      url('./assets/images/main.jpeg') center/cover no-repeat;
+    background: linear-gradient(#0e0c16, rgba(0, 0, 0, 0.9)),
+      url('./assets/images/mainv3.jpg') center/cover no-repeat;
   }
   .hero-banner {
     padding: 0;
@@ -273,15 +273,14 @@ Services
 ===============
 */
 .services {
-  background: var(--clr-grey-10);
+  background: #0e0d10;
 }
 .service {
   text-align: center;
   margin-bottom: 3rem;
 }
 .service-icon {
-  background: var(--clr-primary-5);
-  color: var(--clr-primary-1);
+  color: #4a15b8;
   padding: 0.5rem;
   display: inline-block;
   font-size: 2rem;
@@ -291,6 +290,12 @@ Services
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
+  cursor: none;
+}
+.service-title {
+  color: #4a15b8;
+  padding-bottom: 1rem;
+  font-size: 1rem;
   cursor: none;
 }
 
@@ -421,7 +426,7 @@ Footer
 ===============
 */
 .footer {
-  background: var(--clr-grey-1);
+  background: #0e0d10;
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -477,7 +482,7 @@ Navbar
   top: 0;
   left: 0;
   width: 100%;
-  background: var(--clr-white);
+  background: #191426;
   box-shadow: var(--dark-shadow);
   z-index: 2;
   height: 4rem;
@@ -490,7 +495,7 @@ Navbar
   display: none;
 }
 .nav-center {
-  width: 90vw;
+  width: 21vw;
   max-width: 520px;
   margin: 0 auto;
 }
@@ -519,7 +524,7 @@ Navbar
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   transition: var(--transition);
-  color: var(--clr-grey-1);
+  color: white;
   cursor: none;
   font-size: 1rem;
 }

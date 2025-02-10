@@ -15,8 +15,8 @@ const CustomCursor = () => {
                 const dx = dotPosition.x - prevPosition.x;
                 const dy = dotPosition.y - prevPosition.y;
                 return {
-                    x: prevPosition.x + dx * 0.3, // Increase the speed
-                    y: prevPosition.y + dy * 0.3, // Increase the speed
+                    x: prevPosition.x + dx * 0.9, // Increase the speed
+                    y: prevPosition.y + dy * 0.9, // Increase the speed
                 };
             });
             requestAnimationFrame(updateRingPosition);
