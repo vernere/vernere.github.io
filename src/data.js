@@ -20,8 +20,8 @@ export const services = [
   {
     id: 1,
     icon: "fa fa-address-card",
-    title: "Email",
-    text: "Verner.etola@gmail.com",
+    title: "Verner.etola@gmail.com",
+    text: "",
   },
   {
     id: 2,
@@ -40,31 +40,33 @@ export const services = [
 export const tours = [
   {
     id: 1,
-    image: tour1,
-    date: "december 20th, 2024",
-    title: "Cloud 5",
-    info: `Game made in my 1st year of studies. In my off semester of video game development, I made a slot machine game, using unity 2d core and c#.`,
-    location: "Games",
-    duration: 2,
-    cost: 2100,
-    faId: "fa fa-gamepad",
-  },
-  {
-    id: 2,
     image: tour2,
-    date: "april 29th, 2025",
+    date: "december 20th, 2024",
     title: "MetroPost",
     info: ` Made in my second year of studies as a software engineering major. A social media platform made for the students of Metropolia UAS`,
     location: "Web App",
     duration: 2,
-    cost: 1400,
+    cost: 2100,
     faId: "fa fa-cloud",
+
+  },
+  {
+    id: 2,
+    image: tour1,
+    date: "april 29th, 2025",
+    title: "Cloud 5",
+    info: `Game made in my 1st year of studies. In my off semester of video game development, I made a slot machine game, using unity 2d core and c#.`,
+    location: "Games",
+    duration: 2,
+    cost: 1400,
+    faId: "fa fa-gamepad",
+
   },
    {
      id: 3,
      image: tour3,
      date: "June 20th, 2024",
-     title: "Package Delivery Simulator 2024",
+     title: "PDS 2024",
      info: ` Made in my 1st semester of studies, Package delivery simulator 2024 was made with a Python engine and js, html frontend.`,
      location: "Games",
      duration: 3,
@@ -96,23 +98,21 @@ export const code = [
       { '2022-now': 'Sub surface warfare petty officer at Finnish Defense Forces - Coastal fleet' },
       { '2020-2022': 'Maritime surveillance petty officer at Finnish Defense Forces - Coastal Brigade' },
       { '2017-2018': 'School attendance assistant & substitute teacher at Winellska skolan - Kirkkonummi municipality' }
-    ];
+    ]
   }
 
   education() {
     return [
       { '2024-now': 'Metropolia AMK - Information and communication technologies engineer - Software Engineer' },
       { '2015-2018': 'Kyrkslätts gymnasium - Graduate' }
-    ];
+    ]
   }
 
   skills() {
     return [
       'HTML/CSS/JS', 'React.js', 'Node.js', 'Tailwind', 'Vite', 'npm/yarn/pnpm', 'GIT', 'MySQL/MongoDB',
-      'Photoshop', 'UX/UI', 'C#/C++', 'Python', 'Unity'
-    ];
+      'Photoshop', 'UX/UI', 'C#/C++', 'Python', 'Unity' ]
   }
-}
-    `,
+}`,
   },
 ];

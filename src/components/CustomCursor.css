@@ -7,24 +7,22 @@
 }
 
 .custom-cursor-dot {
-    width: 4px;
+    width: 6px;
     /* Smaller size */
-    height: 4px;
+    height: 6px;
     /* Smaller size */
-    background-color: var(--clr-primary-5);
+    background-color: white;
     border-radius: 50%;
-    transition: transform 0.05s ease;
     /* Snappier transition */
 }
 
 .custom-cursor-ring {
-    width: 16px;
+    width: 20px;
     /* Smaller size */
-    height: 16px;
+    height: 20px;
     /* Smaller size */
-    border: 2px solid var(--clr-primary-5);
+    border: 1px solid white;
     border-radius: 50%;
-    transition: transform 0.1s ease;
     /* Snappier transition */
 }
 
@@ -36,6 +34,11 @@
 .custom-cursor-ring {
     animation: ringAnimation 0.1s ease-out;
     /* Snappier animation */
+}
+
+.custom-cursor-ring.hover {
+    width: 40px;
+    height: 40px;
 }
 
 @keyframes dotAnimation {

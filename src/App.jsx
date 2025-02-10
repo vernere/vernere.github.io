@@ -13,9 +13,9 @@ function App() {
     <div>
       <Navbar />
       <Hero />
+      <Tours />
       <About />
       <Services />
-      <Tours />
       <Footer />
       <CustomCursor />
     </div>
