@@ -1,6 +1,8 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 
-const TourCard = ({ image, title, index }) => {
+const TourCard = ({ image, title, index, info, faId }) => {
+  const [isToggled, setIsToggled] = useState(false);
+
   const cardRef = useRef(null);
 
   const handleMouseMove = (e) => {
@@ -18,12 +20,17 @@ const TourCard = ({ image, title, index }) => {
     card.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
   };
 
+  const handleClick = () => {
+    setIsToggled(!isToggled);
+  };
+
   return (
     <div
-      className="tour-card"
+      className={`tour-card ${isToggled ? 'toggled' : ''}`}
       ref={cardRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      onClick={handleClick}
     >
       <div className="tour-card-image-wrapper">
         <img src={image} alt={title} className="tour-card-image" />
@@ -33,6 +40,10 @@ const TourCard = ({ image, title, index }) => {
         <div className="tour-card-underline"></div>
         <p className="tour-card-index">{index.toString().padStart(2, '0')}</p>
         <div className="tour-card-arrow">→</div>
+          <i className={faId} style={{color: '#322d47'}} />
+        <div className={`tour-card-hidden-content ${isToggled ? 'show' : ''}`}>
+          <p>{info}</p>
+        </div>
       </div>
     </div>
   );

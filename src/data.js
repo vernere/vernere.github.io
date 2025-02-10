@@ -40,25 +40,27 @@ export const services = [
 export const tours = [
   {
     id: 1,
-    image: tour1,
-    date: "december 20th, 2024",
-    title: "Cloud 5",
-    info: `Game made in my 1st year of studies. In my off semester of video game development, I made a slot machine game, using unity 2d core and c#.`,
-    location: "Games",
-    duration: 2,
-    cost: 2100,
-    faId: "fa fa-gamepad",
-  },
-  {
-    id: 2,
     image: tour2,
-    date: "april 29th, 2025",
+    date: "december 20th, 2024",
     title: "MetroPost",
     info: ` Made in my second year of studies as a software engineering major. A social media platform made for the students of Metropolia UAS`,
     location: "Web App",
     duration: 2,
-    cost: 1400,
+    cost: 2100,
     faId: "fa fa-cloud",
+
+  },
+  {
+    id: 2,
+    image: tour1,
+    date: "april 29th, 2025",
+    title: "Cloud 5",
+    info: `Game made in my 1st year of studies. In my off semester of video game development, I made a slot machine game, using unity 2d core and c#.`,
+    location: "Games",
+    duration: 2,
+    cost: 1400,
+    faId: "fa fa-gamepad",
+
   },
    {
      id: 3,
