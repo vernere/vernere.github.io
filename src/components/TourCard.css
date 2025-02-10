@@ -18,7 +18,7 @@
     transition: transform 0.1s ease, box-shadow 0.1s ease; /* Decrease transition duration for snappier effect */
     display: inline-block;
     margin: 150px; /* Add margin to create space between cards */
-    cursor: pointer;
+    cursor: none;
   }
   
   .tour-card:hover {
